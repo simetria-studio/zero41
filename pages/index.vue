@@ -305,7 +305,7 @@
         <div>
           <a href="">
             <div class="social-cont">
-              <div>
+              <div class="ml-4">
                 <img src="~/assets/img/instagram.svg" alt="" />
               </div>
               <div>
@@ -316,7 +316,7 @@
         <div>
           <a href="">
             <div class="social-cont">
-              <div>
+              <div class="ml-4">
                 <img src="~/assets/img/facebook.svg" alt="" />
               </div>
               <div>
@@ -327,7 +327,7 @@
         <div>
           <a href="">
             <div class="social-cont">
-              <div>
+              <div class="ml-4">
                 <img src="~/assets/img/youtube.svg" alt="" />
               </div>
               <div>

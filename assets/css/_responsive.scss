@@ -53,6 +53,10 @@
   }
   .social-grid{
     grid-template-columns: 1fr !important;
+    .social-cont{
+      display: grid !important;
+      grid-template-columns: 25% 75% !important;
+    }
   }
   .contact-grid{
     grid-template-columns: 1fr !important;
