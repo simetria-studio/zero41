@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    background-color: #1b1919;
+    width: 100%;
+  }
+  .header-grid-m {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    .logo {
+      width: 100px;
+    }
+    .btn-menu {
+      button {
+        color: #fff;
+        border: none;
+        background: transparent;
+        font-size: 2em;
+      }
+    }
+  }
+  .phone-top {
+    h4 {
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+  .whatsapp-top {
+    width: 40px !important;
+  }
+  .search {
+    padding: 1em 2em !important;
+  }
+  .marcas {
+    grid-template-columns: 1fr 1fr !important;
+    justify-items: center !important;
+  }
+  .product-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .com-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .com-content {
+    margin: 15px 0;
+    p{
+      padding: 0 2em !important;
+    }
+  }
+  .social-grid{
+    grid-template-columns: 1fr !important;
+  }
+  .contact-grid{
+    grid-template-columns: 1fr !important;
+    margin: 0 !important;
+    h2{
+      font-size: 1.5em;
+    }
+    .contacts{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      h5{
+        font-size: 1em !important;
+      }
+    }
+  }
+  .footer-grid{
+
+    h5{
+      color:#fff;
+      font-size: 1em !important;
+      text-align: center;
+    }
+  }
+  .text-center{
+    h2{
+      font-size: 1.3em !important;
+    }
+  }
+}
