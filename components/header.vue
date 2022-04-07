@@ -28,9 +28,9 @@
           </div>
           <div class="d-flex mx-auto align-items-center">
             <div class="phone-top">
-              <h4>41 99999-9999</h4>
+              <h4>41 99753-2000</h4>
             </div>
-            <div class="whatsapp-top">
+            <div class="whatsapp-top" @click="whatsappUrl">
               <b-img
                 src="~/assets/img/whatsapp.svg"
                 alt=""
@@ -48,7 +48,7 @@
             <a href="/"> <b-img src="~/assets/img/logo.png" alt=""></b-img></a>
           </div>
         </div>
-        <div class="btn-menu" >
+        <div class="btn-menu">
           <button @click="toggleMenu"><i class="fas fa-bars"></i></button>
         </div>
       </div>
@@ -57,7 +57,7 @@
           class="d-flex mx-auto align-items-center justify-content-center pb-3"
         >
           <div class="phone-top">
-            <h4>41 99999-9999</h4>
+            <h4>41 99753-2000</h4>
           </div>
           <div class="whatsapp-top">
             <b-img
@@ -89,7 +89,7 @@
       <div>
         <div class="d-flex mx-auto align-items-center justify-content-center">
           <div class="phone-top">
-            <h4>41 99999-9999</h4>
+            <h4>41 99753-2000</h4>
           </div>
           <div class="whatsapp-top">
             <b-img
@@ -114,6 +114,9 @@ export default {
   methods: {
     toggleMenu() {
       this.isActive = !this.isActive;
+    },
+    whatsappUrl() {
+      window.open('https://api.whatsapp.com/send?phone=5541997532000&text=Vim%20pelo%20site', '_blank');
     },
   },
 

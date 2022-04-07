@@ -4,7 +4,7 @@
       src="https://kit.fontawesome.com/0ab2bcde1c.js"
       crossorigin="anonymous"
     ></script>
-    <Header/>
+    <Header />
     <div class="search">
       <div>
         <div>
@@ -29,30 +29,30 @@
           <div class="center">
             <h5>
               CONSIGNAÇÃO E COMPRA<br />
-              41 9999-9999 41<br />
-              99999-9999
+              41 3311-1858 41<br />
+              99753-2000
             </h5>
           </div>
           <div>
             <h5>
               ENDEREÇO<br />
-              Rua teste, 40 Centro - Curitiba
+              Rua Marechal Floriano Peixoto, 6825 - Boqueirão - Curitiba
             </h5>
           </div>
         </div>
         <div class="footer-icons">
           <div class="d-flex justify-content-center">
-            <div class="mx-2">
-              <img src="~/assets/img/whatsapp2.svg" alt="">
+            <div class="mx-2" @click="whatsappUrl">
+              <img src="~/assets/img/whatsapp2.svg" alt="" />
+            </div>
+            <div class="mx-2" @click="instagramUrl">
+              <img src="~/assets/img/instagram2.svg" alt="" />
             </div>
             <div class="mx-2">
-              <img src="~/assets/img/instagram2.svg" alt="">
+              <img src="~/assets/img/youtube2.svg" alt="" />
             </div>
             <div class="mx-2">
-              <img src="~/assets/img/youtube2.svg" alt="">
-            </div>
-            <div class="mx-2">
-              <img src="~/assets/img/facebook2.svg" alt="">
+              <img src="~/assets/img/facebook2.svg" alt="" />
             </div>
           </div>
         </div>
@@ -66,6 +66,21 @@ export default {
 
   data() {
     return {};
+  },
+
+  methods: {
+    whatsappUrl() {
+      window.open(
+        "https://api.whatsapp.com/send?phone=5541997532000&text=Vim%20pelo%20site",
+        "_blank"
+      );
+    },
+    instagramUrl() {
+        window.open(
+        "https://www.instagram.com/zero41motors_curitiba/",
+        "_blank"
+      );
+    },
   },
 };
 </script>

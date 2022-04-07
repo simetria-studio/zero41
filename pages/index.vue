@@ -303,7 +303,7 @@
     <div class="container">
       <div class="social-grid">
         <div>
-          <a href="">
+          <a href="https://www.instagram.com/zero41motors_curitiba/" target="_blank">
             <div class="social-cont">
               <div class="ml-4">
                 <img src="~/assets/img/instagram.svg" alt="" />
@@ -339,14 +339,14 @@
     </div>
     <div class="contact-grid">
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28816.078596653442!2d-49.14356175!3d-25.4713474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649184590627!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.5393430449835!2d-49.24648968479742!3d-25.487053141390803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfb29c55efc07%3A0x94d9c28d87687819!2sAv.%20Mal.%20Floriano%20Peixoto%2C%206825%20-%20Boqueir%C3%A3o%2C%20Curitiba%20-%20PR%2C%2081650-000!5e0!3m2!1spt-BR!2sbr!4v1649336411542!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="contacts">
           <h2>Zero 41 Motors</h2>
-          <h5><i class="fas fa-map-marker-alt"></i> Endereço: Rua Teste, 40 - Curitiba - Centro</h5>
-          <h5><i class="fas fa-envelope"></i> Email: contato@zero4motors.com.br</h5>
-          <h5><i class="fas fa-phone"></i> Telefone: 41 9999-9999</h5>
-          <h5><i class="fab fa-whatsapp"></i> WhatsApp: 41 99999-9999</h5>
+          <h5><i class="fas fa-map-marker-alt"></i> Endereço: Rua Marechal Floriano Peixoto, 6825 - Boqueirão - Curitiba</h5>
+          <h5><i class="fas fa-envelope"></i> Email: zero41motors@hotmail.com</h5>
+          <h5><i class="fas fa-phone"></i> Telefone: 41 3311-1858</h5>
+          <h5><i class="fab fa-whatsapp"></i> WhatsApp: 41 99753-2000</h5>
       </div>
     </div>
   </div>
